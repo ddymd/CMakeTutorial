@@ -1,0 +1,17 @@
+// the configured options and settings for Tutorial
+// TODO 10: Define Tutorial_VERSION_MAJOR and Tutorial_VERSION_MINOR
+#ifndef TUTORIAL_CONFIG_H_
+#define TUTORIAL_CONFIG_H_
+
+
+#define Tutorial_VERSION_MAJOR @Tutorial_VERSION_MAJOR@
+#define Tutorial_VERSION_MINOR @Tutorial_VERSION_MINOR@
+
+/// 指令大小（字节数）
+static constexpr size_t CMD_SIZE = 8;
+/// 等待板子ready的超时时间
+static constexpr int READY_TIMEOUT_SECONDS = 10;
+/// 心跳间隔时间
+static constexpr int HEARTBEAT_SECONDS = 3;
+
+#endif // TUTORIAL_CONFIG_H_
